@@ -6,7 +6,7 @@ Given /^an admin login the website about delete$/ do
   click_button "Giriş Yap"
 end
 
-And /^given there is a renter in database$/ do
+And /^given there is a announcement in database$/ do
   @renter = Renter.create(name: "Example Renter", email:"user@example.com", phone:"12345678912", ap_num: "2")
 end
 
